@@ -5,6 +5,10 @@ body {
     font-family: 'Arial', Sans-Serif;
 }
 
+.currentTab {
+    color: #808080 !important;
+}
+
 .nav {
     color: #000000;
     list-style: none;
@@ -54,4 +58,44 @@ body {
 .edu > .edu-image {
     width: 100%;
     display: block;
+}
+
+.cont {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.contactMethod {
+    width: 290px;
+    height: 200px;
+    margin: 10px 10px;
+    border: 1px solid #000000;
+    padding: 0 5px;
+    float: left;
+}
+
+.contactMethod > h1 {
+    font-family: 'Arial', Sans-Serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 0;
+    margin: 0 -6px;
+}
+
+.contactLinks {
+    max-width: 200px;
+    margin: 25px 40px;
+}
+
+.contactLinks:hover {
+    opacity: 0.2;
+}
+
+#github, #linkedin {
+    margin: 20px 82px !important;
 }
