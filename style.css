@@ -63,9 +63,8 @@ body {
 }
 
 .cont {
-    width: 1500px;
+    width: 100%;
     margin-top: 50px;
-    margin-left: -50px;
 }
 
 .contactMethod {
@@ -74,7 +73,7 @@ body {
     margin: 10px 10px;
     border: 1px solid #000000;
     padding: 0 5px;
-    float: right;
+    float: inherit;
 }
 
 .contactMethod > h1 {
