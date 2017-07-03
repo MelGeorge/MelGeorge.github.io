@@ -1,0 +1,57 @@
+body {
+    background-color: #C6DBE7;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', Sans-Serif;
+}
+
+.nav {
+    color: #000000;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 16px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav > li > a:hover {
+    color: #808080;
+}
+
+.logo {
+    margin-top: 100px;
+}
+
+.logo > a img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+}
+.about > a {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: block;
+}
+
+.edu {
+    width: 100%;
+    display: block;
+}
+.edu > .edu-image {
+    width: 100%;
+    display: block;
+}
