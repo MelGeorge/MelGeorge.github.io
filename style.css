@@ -35,7 +35,7 @@ body {
     margin-top: 50px;
 }
 
-.logo > a img {
+.logo > a > img {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -43,13 +43,56 @@ body {
 
 .about {
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
 }
-.about > a {
-    margin-left: 100px;
-    margin-top: 50px;
+
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.image {
     display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.container:hover .image {
+    opacity: 0.2;
+}
+
+.text {
+    color: #000000;
+    text-align: left;
+    font-family: 'Arial', Sans-Serif;
+    font-size: 16px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+
+.content > h1 {
+    font-family: 'Arial', Sans-Serif;
+    font-weight: normal;
+    text-align: center;
+    color: #000000;
+    padding: 10px 5px;
 }
 
 .edu {
@@ -95,6 +138,7 @@ body {
 .contactLinks:hover {
     opacity: 0.2;
 }
+
 
 #github, #linkedin {
     margin: 20px 82px !important;
