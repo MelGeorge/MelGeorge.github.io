@@ -43,6 +43,7 @@ body {
 
 .about {
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -97,6 +98,7 @@ body {
 
 .exp {
     margin-top: 50px;
+    margin-bottom: 100px;
     width: 100%;
     display: block;
 }
@@ -146,6 +148,23 @@ body {
     list-style: none;
     text-align: left;
     color: #000000;
+}
+
+.proj {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.projectsHead {
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+}
+
+.GitHubLinks img {
+    margin-top: 50px;
+    height: 30%;
+    width: 30%;
 }
 
 .cont {
