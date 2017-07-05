@@ -95,14 +95,57 @@ body {
     padding: 10px 5px;
 }
 
+.exp {
+    margin-top: 50px;
+    width: 100%;
+    display: block;
+}
+
+.expUnit {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.expHeader {
+    display: block;
+}
+
+.subtitle {
+    color: #808080;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.expText {
+    margin-top: 25px;
+    text-align: left;
+}
 .edu {
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 100px;
     display: block;
 }
+
 .edu-image {
     width: 100%;
     display: block;
+}
+
+.dispBox {
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.eduUnit img {
+    margin-right: 50px;
+}
+.eduUnitText {
+    padding-left: 150px;
+    list-style: none;
+    text-align: left;
+    color: #000000;
 }
 
 .cont {
