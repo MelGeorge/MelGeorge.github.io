@@ -104,8 +104,8 @@ body {
 }
 
 .expUnit {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 10%;
+    margin-left: 25%;
     margin-bottom: 50px;
 }
 
@@ -140,6 +140,11 @@ body {
     margin-right: 250px;
 }
 
+.eduUnit {
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
 .eduUnit img {
     margin-right: 50px;
 }
@@ -163,13 +168,19 @@ body {
 
 .GitHubLinks img {
     margin-top: 50px;
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
+}
+
+.GitHubLinks:hover {
+    opacity: 0.2;
 }
 
 .cont {
     width: 100%;
     margin-top: 50px;
+    float: left;
+    margin-left: 10%;
 }
 
 .contactMethod {
