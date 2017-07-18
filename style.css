@@ -172,7 +172,7 @@ body {
     width: 20%;
 }
 
-.GitHubLinks:hover {
+.GitHubLinks img:hover {
     opacity: 0.2;
 }
 
