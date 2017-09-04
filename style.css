@@ -70,11 +70,19 @@ body {
 }
 
 .container:hover .overlay {
-    opacity: 1;
+   opacity: 1;
 }
 
 .container:hover .image {
-    opacity: 0.2;
+   opacity: 0.2;
+}
+
+.container:active .overlay {
+   opacity: 1;
+}
+
+.container:active .image {
+   opacity: 0.2;
 }
 
 .text {
