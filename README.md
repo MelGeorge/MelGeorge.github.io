@@ -17,4 +17,3 @@ LinkedIn.com
 A resource I have found useful -- videos by Tom Walsh:
 https://www.youtube.com/channel/UCkRNZ2HAVO6YGLCXY58n5TQ
 
-## IN PROGRESS -- especially the "experience" and "projects" tabs are unfinished! Please excuse the mess!
