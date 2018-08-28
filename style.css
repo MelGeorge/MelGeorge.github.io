@@ -88,6 +88,10 @@ body {
     display: block;
 }
 
+.expHeader {
+   font-weight: bold;
+}
+
 .expUnit {
     margin-right: 10%;
     margin-left: 25%;
@@ -100,12 +104,12 @@ body {
 
 .subtitle {
     color: #808080;
+    margin-top: 5px;
+    margin-bottom: 15px;
     font-style: italic;
-    margin-bottom: 25px;
 }
 
 .expText {
-    margin-top: 25px;
     text-align: left;
 }
 .edu {
